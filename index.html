@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Share</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Food Share</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html"><b>Home</b></a></li>
+                <li><a href="how-it-works.html"><b>How it Works</b></a></li>
+                <li><a href="food-sharing.html"><b>Food Sharing</b></a></li>
+                <li><a href="business-partnerships.html"><b>Business Partnerships</b></a></li>
+                <li><a href="contact-us.html"><b>Contact Us</b></a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Food Share</h2>
+        <p>Food Share collaborates with local restaurants and community members to donate food to those in need. By contributing, you help support others while earning rewards and points. Together, we make a positive impact, creating a cycle of generosity that benefits both donors and recipients in the community.</p>
+        <button class="cta-button">Learn More</button>
+    </section>
+
+    <section id="donate">
+        <h2>Donate Food</h2>
+        <form id="donation-form">
+            <label for="food-name">Food Name:</label>
+            <input type="text" id="food-name" name="food-name" required>
+            
+            <label for="quantity">Quantity (kg):</label>
+            <input type="number" id="quantity" name="quantity" required>
+
+            <!-- Share Location Button -->
+            <label for="location">Share Location:</label>
+            <button type="button" class="cta-button" id="location-btn" onclick="shareLocation()">Share Location</button>
+            <input type="text" id="location" name="location" placeholder="Click to share location" readonly>
+
+            <button type="submit" class="cta-button">Donate</button>
+        </form>
+    </section>
+
+    <section id="volunteers">
+        <h2>Become a Volunteer</h2>
+        <button class="cta-button">Sign Up</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Food Share. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
