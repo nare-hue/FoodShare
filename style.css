@@ -32,15 +32,21 @@ nav ul li {
     margin: 0 20px;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: white;
+nav ul li button {
+    background-color: white;
+    color: #000000;
     font-weight: bold;
     text-transform: uppercase;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
 }
 
-nav ul li a:hover {
-    text-decoration: underline;
+nav ul li button:hover {
+    background-color: #f1f1f1; /* Slight hover effect */
 }
 
 /* Section Styles */
@@ -86,19 +92,20 @@ p {
     display: block;
     margin: 0 auto;
     padding: 12px 30px;
-    background-color: #000000;
-    color: white;
+    background-color: white;
+    color: #000000;
     font-size: 1.1rem;
     font-weight: bold;
     text-align: center;
-    border: none;
+    border: 2px solid #000000;
     border-radius: 50px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .cta-button:hover {
-    background-color: #000000;
+    background-color: #f1f1f1;
+    border-color: #000000;
 }
 
 /* Form Styles */
@@ -131,34 +138,5 @@ input[type="number"] {
 }
 
 input:focus {
-    border-color: #000000;
-    outline: none;
-}
+    bord
 
-button[type="submit"] {
-    padding: 10px 25px;
-    background-color: #000000;
-    color: white;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-button[type="submit"]:hover {
-    background-color: #000000;
-}
-
-/* Footer Styles */
-footer {
-    text-align: center;
-    background-color: #000000;
-    color: white;
-    padding: 20px;
-    margin-top: 20px;
-    font-size: 1rem;
-}
-
-footer p {
-    margin: 0;
-}
