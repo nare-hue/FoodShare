@@ -11,14 +11,14 @@
 /* Body Styles */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #2b2b2b; /* Darker than #424242 */
+    background-color: #000000; /* Pure black */
     color: #ffffff;
     padding: 0 20px;
 }
 
 /* Header Styles */
 header {
-    background-color: #2b2b2b;
+    background-color: #000000;
     padding: 20px 0;
     color: white;
     text-align: center;
@@ -37,7 +37,7 @@ nav ul li {
 
 nav ul li button {
     background-color: white;
-    color: #2b2b2b;
+    color: #000000;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 1rem;
@@ -67,14 +67,14 @@ h2 {
     font-size: 2.5rem;
     margin-bottom: 15px;
     font-weight: 600;
-    color: #2b2b2b;
+    color: #000000;
 }
 
 /* Section Content */
 p {
     text-align: center;
     font-size: 1.2rem;
-    color: #2b2b2b;
+    color: #000000;
     margin-bottom: 20px;
 }
 
@@ -84,11 +84,11 @@ p {
     margin: 0 auto;
     padding: 12px 30px;
     background-color: white;
-    color: #2b2b2b;
+    color: #000000;
     font-size: 1.1rem;
     font-weight: bold;
     text-align: center;
-    border: 2px solid #2b2b2b;
+    border: 2px solid #000000;
     border-radius: 50px;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -96,7 +96,7 @@ p {
 
 .cta-button:hover {
     background-color: #f1f1f1;
-    border-color: #2b2b2b;
+    border-color: #000000;
 }
 
 /* Form Styles */
@@ -111,7 +111,7 @@ form {
 label {
     margin: 10px 0;
     font-size: 1.1rem;
-    color: #2b2b2b;
+    color: #000000;
 }
 
 input {
@@ -129,6 +129,6 @@ input[type="number"] {
 }
 
 input:focus {
-    border: 2px solid #2b2b2b;
+    border: 2px solid #000000;
     outline: none;
 }
