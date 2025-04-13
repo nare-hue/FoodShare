@@ -45,12 +45,27 @@ nav ul li button {
     text-transform: none;
     font-weight: 400;
     padding: 5px 10px;
+    position: relative;
     transition: color 0.3s ease;
+}
+
+nav ul li button::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: #f1f1f1;
+    transition: width 0.3s ease;
 }
 
 nav ul li button:hover {
     color: #f1f1f1;
-    text-decoration: underline;
+}
+
+nav ul li button:hover::after {
+    width: 100%;
 }
 
 /* Section Styles */
