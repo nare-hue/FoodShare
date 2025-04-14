@@ -46,7 +46,8 @@ nav ul li button {
     font-weight: 400;
     padding: 5px 10px;
     position: relative;
-    transition: color 0.3s ease;
+    transition: all 0.3s ease;
+    border-radius: 5px;
 }
 
 nav ul li button::after {
@@ -61,7 +62,9 @@ nav ul li button::after {
 }
 
 nav ul li button:hover {
-    color: #f1f1f1;
+    background-color: #000000;
+    color: #ffffff;
+    border: 2px solid #ffffff;
 }
 
 nav ul li button:hover::after {
@@ -94,7 +97,7 @@ p {
     margin-bottom: 20px;
 }
 
-/* Button Styles */
+/* CTA Button Styles */
 .cta-button {
     display: block;
     margin: 0 auto;
@@ -107,11 +110,12 @@ p {
     border: 2px solid #000000;
     border-radius: 50px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .cta-button:hover {
-    background-color: #f1f1f1;
+    background-color: #000000;
+    color: #ffffff;
     border-color: #000000;
 }
 
