@@ -11,7 +11,7 @@
 /* Body Styles */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #000000; /* Pure black */
+    background-color: #000000;
     color: #ffffff;
     padding: 0 20px;
 }
@@ -36,39 +36,21 @@ nav ul li {
 }
 
 nav ul li button {
-    background: none;
-    border: none;
+    background-color: transparent;
+    border: 2px solid transparent;
     color: #ffffff;
     font-size: 1.2rem;
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
-    text-transform: none;
-    font-weight: 400;
-    padding: 5px 10px;
-    position: relative;
+    padding: 8px 16px;
     transition: all 0.3s ease;
-    border-radius: 5px;
-}
-
-nav ul li button::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -5px;
-    width: 0;
-    height: 2px;
-    background-color: #f1f1f1;
-    transition: width 0.3s ease;
+    border-radius: 8px;
 }
 
 nav ul li button:hover {
-    background-color: #000000;
-    color: #ffffff;
-    border: 2px solid #ffffff;
-}
-
-nav ul li button:hover::after {
-    width: 100%;
+    background-color: #ffffff;
+    color: #000000;
+    border-color: #ffffff;
 }
 
 /* Section Styles */
